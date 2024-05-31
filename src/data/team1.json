@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/mlo-img/OmarK.jpg",
+    "url":"OmarKhamisa",
+    "facebook": "https://www.facebook.com/omarkhamisamlo",
+    "instagram": "https://www.instagram.com/missionsanjosemortgage/",
+    "twitter": "https://twitter.com/msjmortgage",
+    "name": "Omar Khamisa",
+    "title": "CEO/MLO/CMA",
+    "nmls": "NMLS#: 369325"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/team/Mahmod.jpg",
+    "url":"MahmoudMasadeh",
+    "facebook": "",
+    "twitter": "#",
+    "instagram": "#",
+    "name": "Mahmoud Masadeh",
+    "title": "MLO",
+    "nmls":"NMLS#: 1037111"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/team/Trami.jpg",
+    "url":"TramiNguyen",
+    "facebook": "https://www.facebook.com/profile.php?id=100063832194042",
+    "twitter": "#",
+    "instagram": "#",
+    "name": "Trami Nguyen",
+    "title": "MLO",
+    "nmls":"NMLS#: 880944"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/team/Harry.jpg",
+    "url":"HarrySangha",
+    "facebook": "https://www.facebook.com/LoanOfficerHarrySangha",
+    "twitter": "",
+    "instagram": "https://www.instagram.com/mloharry/",
+    "name": "Harry Sangha",
+    "title": "MLO",
+    "nmls":"NMLS#: 401202"
+  },
+  {
+    "id": 5,
+    "image": "/assets/img/team/Ruth.jpg",
+    "url":"RuthRivera",
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "name": "Ruth Rivera",
+    "title": "MLO",
+    "nmls":"NMLS#: 1572038"
+  },
+  {
+    "id": 6,
+    "image": "/assets/img/team/Robert.jpg",
+    "url":"RobertFalco",
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "name": "Robert Falco",
+    "title": "MLO",
+    "nmls":"NMLS#: 2024299"
+  },
+  {
+    "id": 7,
+    "image": "/assets/img/team/Naveed.jpg",
+    "url":"NawidNawabi",
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "name": "Nawid Nawabi",
+    "title": "MLO",
+    "nmls":"NMLS#: 2159109"
+  },
+  {
+    "id": 8,
+    "image": "/assets/img/team/Steve.jpg",
+    "url":"SteveDale",
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "name": "Steve Dale",
+    "title": "MLO",
+    "nmls":"NMLS#: 2352630"
+  }
+]

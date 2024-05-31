@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "image":"/assets/img/blog/b1.png",
+    "title":"Decoding LTC VS LTV: A Guide To Loan To Cost Ratio Aad Loan To Value Ratio",
+    "by": "Arslan Jatt",
+    "date":"Aug 06 2022",
+    "herf":"/blog-details"
+  },
+  {
+    "id": 2,
+    "image":"/assets/img/blog/b1.png",
+    "title":"Exploring The Diffrence: Fannie Mae VS Freddie MAC",
+    "by": "ALEX SMITH",
+    "date":"Aug 06 2022",
+    "herf":"/blog-details"
+  }
+]

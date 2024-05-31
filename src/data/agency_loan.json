@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Agency Jumbo Loan",
+    "desc": "An agency jumbo loan is a type of mortgage loan that combines elements of both jumbo loans and agency loans. To understand what an agency jumbo loan is, let's break down these components:"
+  },
+  {
+    "id": 2,
+    "title": "Jumbo Loan",
+    "desc": "A jumbo loan is a type of mortgage that exceeds the conforming loan limits set by government-sponsored enterprises (GSEs) like Fannie Mae and Freddie Mac. These limits are established to ensure the availability of affordable financing for homebuyers in the United States. Jumbo loans are used to finance more expensive homes that surpass these limits."
+  },
+  {
+    "id": 3,
+    "title": "Agency Loan",
+    "desc": "An agency loan, on the other hand, is a mortgage loan that is eligible for purchase or guarantee by a government-sponsored enterprise like Fannie Mae, Freddie Mac, or the Federal Housing Administration (FHA). These loans typically adhere to specific guidelines and requirements set by the government agencies, making them more accessible to a broader range of borrowers.",
+    "desc2":"An agency jumbo loan combines elements of both jumbo and agency loans. It's a type of mortgage that exceeds the conforming loan limits but still meets certain criteria and guidelines set by one of the government-sponsored enterprises. These loans may have more favorable terms and interest rates than traditional jumbo loans because they are considered less risky by lenders.",
+    "desc3":"The exact requirements and terms of agency jumbo loans can vary, so it's essential to work with a lender or mortgage professional who can provide specific information about these types of loans, as well as current guidelines and eligibility criteria."
+  },
+  {
+    "id": 4,
+    "types":"Types of Agency Jumbo Loan",
+    "type1":"1. Fixed-Rate Jumbo Loans:",
+    "typedesc":"These are jumbo loans with a fixed interest rate for the entire loan term, which is often 15, 20, or 30 years. Fixed-rate jumbo loans provide stability and predictability in monthly payments."
+  },
+  {
+    "id": 5,
+    "types":"",
+    "type1":"2. Adjustable-Rate Jumbo Loans (ARMs):",
+    "typedesc":"These loans have an initial fixed interest rate for a specific period (e.g., 5, 7, or 10 years) before the rate adjusts periodically. The interest rate and monthly payments may increase or decrease after the initial fixed period."
+  },
+  {
+    "id": 6,
+    "type1":"3. Interest-Only Jumbo Loans:",
+    "typedesc":"Some lenders offer interest-only jumbo loans where the borrower pays only the interest for a certain period (usually 5-10 years), after which they begin paying both principal and interest. This can lead to lower initial monthly payments but requires a larger balloon payment later."
+  },
+  {
+    "id": 7,
+    "type1":"4. Portfolio Jumbo Loans:",
+    "typedesc":"Some banks and credit unions offer portfolio jumbo loans. These loans are typically held in the lender's portfolio rather than being sold on the secondary market. This may allow for more flexibility in underwriting criteria."
+  },
+  {
+    "id": 8,
+    "type1":"5. Cash-Out Jumbo Refinance Loans:",
+    "typedesc":"Jumbo borrowers can refinance their existing jumbo loans to access the equity in their homes. This can be used for various purposes, such as home improvements, debt consolidation, or other financial needs."
+  },
+  {
+    "id": 9,
+    "type1":"6. Super Jumbo Loans:",
+    "typedesc":"Super jumbo loans are jumbo loans that exceed the standard jumbo loan limits, often by a significant margin. They are designed for high-end properties with exceptionally high prices."
+  },
+  {
+    "id": 10,
+    "desc":"While these are common types of jumbo loans, agency jumbo loans could refer to jumbo loans that adhere to certain underwriting and eligibility standards set by government-sponsored enterprises (GSEs) like Fannie Mae or Freddie Mac. However, specific products and terminology can vary between lenders, so it's important to contact lenders or mortgage professionals directly to inquire about any specialized jumbo loan products they may offer and their specific terms and requirements, as the mortgage industry is subject to changes and developments over time."
+  }
+  
+]

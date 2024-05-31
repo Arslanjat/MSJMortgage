@@ -1,0 +1,42 @@
+{
+  "portfolio": [
+    
+    {
+      "id": 1,
+      "image": "/assets/img/blog/agencyjumbo.jpg",
+      "title": "Government Loan",
+      "tag": "A Government Mortgage Loan is a home loan that is insured or guaranteed by a government agency, such as the Federal Housing Administration (FHA), the Department of Veterans Affairs (VA), or the U.S. Department of Agriculture (USDA). These loans aim to facilitate homeownership by offering favorable terms, lower down payment requirements, and more accessible financing options, particularly for specific groups of borrowers, such as first-time homebuyers, veterans, or those in rural areas."
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/blog/agencyjumbo.jpg",
+      "title": "FHA",
+      "tag": "FHA, or the Federal Housing Administration, refers to a U.S. government agency established to support and regulate the housing industry. In the context of mortgages, an FHA loan is a type of government-backed mortgage insured by the FHA. It is designed to assist homebuyers, especially those with lower credit scores or limited financial resources, by providing lenders with insurance against potential default. FHA loans typically feature more lenient qualification requirements, including a lower down payment, making homeownership more accessible to a broader range of individuals."
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title": "USDA",
+      "tag": "USDA, or the United States Department of Agriculture, refers to a federal agency responsible for various programs related to agriculture, rural development, and food safety. In the context of mortgages, a USDA loan is a type of government-backed mortgage program administered by the USDA's Rural Development division. The USDA loan program aims to support homeownership in rural and suburban areas by offering affordable financing options with favorable terms."
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title": "VA",
+      "tag": "VA, or the Department of Veterans Affairs, refers to a U.S. government agency that provides various benefits and services to military veterans and their families. In the context of mortgages, a VA loan is a type of government-backed mortgage program specifically designed for eligible veterans, active-duty service members, and their surviving spouses."
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title": "203k",
+      "tag": "A 203(k) loan refers to a type of mortgage offered by the Federal Housing Administration (FHA) in the United States. The FHA 203(k) loan program is designed to facilitate the purchase and renovation of a home in a single mortgage loan, making it an attractive option for homebuyers looking to invest in properties that may need repairs or improvements."
+    },
+    {
+      "id": 6,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title": "REVERSE",
+      "tag": "A reverse mortgage is a financial product designed for older homeowners that allows them to convert a portion of their home equity into cash. Unlike traditional mortgages where the borrower makes monthly payments to the lender, in a reverse mortgage, the lender makes payments to the homeowner."
+    }
+  ]
+  
+}

@@ -1,0 +1,23 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title":"Portfolio Mortgage Loan",
+      "tag": "A portfolio mortgage loan refers to a mortgage that is originated and retained by the lending institution instead of being sold in the secondary market. In the traditional mortgage process, lenders often sell loans to investors or government-sponsored entities (GSEs) like Fannie Mae and Freddie Mac. However, with a portfolio mortgage, the lending institution chooses to keep the loan in its own portfolio."
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title": "Non-QM Loan",
+      "tag": "A Non-Qualified Mortgage (Non-QM) is a type of mortgage loan that doesn't meet the criteria established by government-sponsored enterprises (GSEs) like Fannie Mae and Freddie Mac or the standards set by the Consumer Financial Protection Bureau (CFPB) for Qualified Mortgages (QM). Non-QM loans are designed to accommodate borrowers with unique financial situations that may not fit within the strict guidelines of conventional mortgages."
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title": "Jumbo",
+      "tag":"A jumbo loan is a type of mortgage that exceeds the conforming loan limits set by government-sponsored enterprises (GSEs) like Fannie Mae and Freddie Mac. These limits are established to ensure that the majority of mortgages in the United States conform to certain standard criteria. Jumbo loans are used to finance higher-priced properties that exceed these limits, providing an option for borrowers seeking larger loan amounts."
+    }
+  ]
+  
+}

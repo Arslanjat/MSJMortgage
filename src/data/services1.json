@@ -1,0 +1,29 @@
+{
+
+  "services": [
+    {
+      "id": "01",
+      "title": "Conventional Loan",
+      "content": "Standard mortgage, not government-backed. Follows Fannie Mae and Freddie Mac guidelines.",
+      "link":"/conventional"
+    },
+    {
+      "id": "02",
+      "title": "Government Loan",
+      "content": "Backed by government agencies like FHA or VA. Easier qualification, lower down payments.",
+      "link":"/government"
+    },
+    {
+      "id": "03",
+      "title": "Portfolio",
+      "content": "Customized financing, not sold on the market. Tailored terms for unique situations.",
+      "link":"/portfolio"
+    },
+    {
+      "id": "04",
+      "title": "Private Money",
+      "content": "Funding from private investors or individuals. Quick approval, flexible terms.",
+      "link":"/private-money"
+    }
+  ]
+}

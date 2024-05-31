@@ -1,0 +1,11 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "image": "/assets/img/blog/img-1.jpg",
+      "title": "Private Money",
+      "tag": "A private money mortgage loan, also known as a hard money loan, Is a type of real estate financing provided by private individuals or non-institutional investors. Unlike traditional loans from banks or financial institutions, private money loans are typically sourced from private investors or lending companies that specialize in real estate investments.",
+      "filterClass": "private_money"
+    }
+  ]
+}
