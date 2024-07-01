@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
     try {
       await MailService.sendMail({
-        to: "arslansamijat@gmail.com",
+        to: "arslansamijat@gmail.com", // replace with the actual recipient email
         subject: "New MLO Form Submission",
         html: `
           <div style="background-color: #ffcc33; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto;">

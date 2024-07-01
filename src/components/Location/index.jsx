@@ -24,11 +24,6 @@ function Branch() {
                 <p style={{ color: "#737373;" }}>{item.tollFree}</p>
                 <p style={{ color: "#737373;" }}>{item.fax}</p>
                 <p style={{ color: "#737373;" }}>{item.NMLS}</p>
-                <b>
-                  <Link href="#">
-                    <span>Read -{">"}</span>
-                  </Link>
-                </b>
               </div>
             </div>
           ))}
@@ -43,7 +38,7 @@ function Branch() {
         </h4>
         <center>
           <div className="mb-50">
-            <img src="/assets/img/usamap34.png" alt="" />
+            <img src="/assets/img/usamap.png" alt="" />
           </div>
           <h5 className="mt-30 mb-40" style={{ color: "#26272b" }}>
             <table
@@ -128,6 +123,11 @@ function Branch() {
                   <th>13</th>
                   <th scope="row">Wyomimng</th>
                   <td colSpan="2">4367</td>
+                </tr>
+                <tr>
+                  <th>14</th>
+                  <th scope="row">Alabama</th>
+                  <td colSpan="2">23595</td>
                 </tr>
               </tbody>
             </table>

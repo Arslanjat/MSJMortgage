@@ -81,6 +81,15 @@ const Footer = ({ classText }) => {
                     </Link>
                   </div>
                 </li>
+                <li>
+                  <div className="">
+                    <Link href="/disclosure">
+                      <a>
+                        <p>Disclosure</p>
+                      </a>
+                    </Link>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>

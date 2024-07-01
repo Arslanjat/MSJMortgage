@@ -1,6 +1,6 @@
 import React from "react";
-import services1Data from '../../data/services1.json'
-import Link from 'next/link'
+import services1Data from "../../data/services1.json";
+import Link from "next/link";
 
 const Services1 = () => {
   return (
@@ -9,7 +9,6 @@ const Services1 = () => {
         <div className="section-head text-center">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
-              
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
                 Our Product
               </h4>
@@ -22,11 +21,17 @@ const Services1 = () => {
           style={{ backgroundImage: `url(${services1Data.image}` }}
         >
           {services1Data.services.map((item) => (
-            <div className="col-lg-3 col-md-6 item-bx" key={item.id}>
-              <h6 className="mb-20">{item.title}</h6>
-              <p>{item.content}</p>
-                <a href={item.link} className="more mt-20">Read More</a>
-            </div>
+            <a
+              href={item.link}
+              className=" col-lg-3 col-md-6 item-bx"
+              key={item.id}
+            >
+              <div className="">
+                <h6 className="mb-20">{item.title}</h6>
+                <p>{item.content}</p>
+                <span className="more mt-20">Read More</span>
+              </div>
+            </a>
           ))}
         </div>
       </div>

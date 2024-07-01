@@ -1870,25 +1870,25 @@ const getBetterProduct = function( products, name, term, property_price, loan_am
 			},
 			{
 				"name": "Total",
-				"price": `${(origination + 650 + 125 + 225 + 1135 + 330 + 780).toFixed(2)}`
+				"price": `$${(origination + 650 + 125 + 225 + 1135 + 330 + 780).toFixed(2)}`
 			}
 		],
 		"mp": [
 			{
 				"name": "Principal & Interest",
-				"price": pi.toFixed(2)
+				"price": `$${pi.toFixed(2)}`
 			},
 			{
 				"name": "Hazard Insurance",
-				"price": `${ hazard_insurance.toFixed(2) }`
+				"price": `$${ hazard_insurance.toFixed(2) }`
 			},
 			{
 				"name": "Real Estate Taxes",
-				"price": `${ real_estate_taxes.toFixed(2) }`
+				"price": `$${ real_estate_taxes.toFixed(2) }`
 			},
 			{
 				"name": "Total",
-				"price": `${(pi + hazard_insurance + real_estate_taxes).toFixed(2)}`
+				"price": `$${(pi + hazard_insurance + real_estate_taxes).toFixed(2)}`
 			}
 		]
 	}
@@ -1924,5 +1924,5 @@ const getProductRank = function(params_products, callback) {
 
 
 module.exports = {
-	findProducts, getAPR, createAlert, getProductRank
+	findProducts, getAPR, createAlert, getProductRank, getBetterProduct
 }

@@ -61,7 +61,7 @@ const ProfileDetails = () => {
   }, [name]);
 
   if (!profile) {
-    return <div>Profile Details not found</div>;
+    return <div></div>;
   }
 
   return (

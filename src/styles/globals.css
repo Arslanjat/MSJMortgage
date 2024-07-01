@@ -88,7 +88,7 @@ a,
   -moz-box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
   box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
   z-index: 40;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 .twentytwenty-left-arrow {
   border-right: 6px solid white;
@@ -555,6 +555,9 @@ padding: 10px;
   color: gray;
   text-decoration: none;
 }
+/* styles/globals.css */
+
+
 
 /* footer end*/
 

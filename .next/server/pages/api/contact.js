@@ -19,50 +19,6 @@ module.exports = require("nodemailer");
 
 /***/ }),
 
-/***/ 455:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-
-(__webpack_require__(5142).config)();
-const nodemailer = __webpack_require__(5184);
-const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: process.env.SMTP_PORT,
-    secure: false,
-    auth: {
-        user: "arslansamijat@gmail.com",
-        pass: "'rdfq bdwe igvm ufew"
-    },
-    tls: {
-        ciphers: "SSLv3"
-    }
-});
-const sendEmail = async (mailData)=>{
-    try {
-        const info = await transporter.sendMail(mailData);
-        console.log("Email sent:", info);
-        return info;
-    } catch (error) {
-        console.error("Error sending email:", error);
-        throw error;
-    }
-};
-const MailService = {
-    sendMail: (data)=>{
-        const mailOptions = {
-            from: "arslansamijat@gmail.com",
-            to: "arslansamijat@gmail.com",
-            subject: data.subject,
-            html: data.html
-        };
-        return sendEmail(mailOptions);
-    }
-};
-module.exports = MailService;
-
-
-/***/ }),
-
 /***/ 186:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -135,7 +91,7 @@ async function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(186));
+var __webpack_exports__ = __webpack_require__.X(0, [455], () => (__webpack_exec__(186)));
 module.exports = __webpack_exports__;
 
 })();

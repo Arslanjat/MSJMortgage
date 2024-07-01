@@ -1,12 +1,15 @@
 {
   "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/MHomeMortgage": "pages/MHomeMortgage.html",
   "/MVideo": "pages/MVideo.html",
   "/McommonMethod": "pages/McommonMethod.html",
   "/about": "pages/about.html",
   "/act-notice": "pages/act-notice.html",
+  "/api/complaints": "pages/api/complaints.js",
   "/api/contact": "pages/api/contact.js",
+  "/api/quote": "pages/api/quote.js",
   "/blog-details/[id]": "pages/blog-details/[id].html",
   "/blogs": "pages/blogs.html",
   "/calculator": "pages/calculator.html",
@@ -16,6 +19,7 @@
   "/conventional": "pages/conventional.html",
   "/corsol": "pages/corsol.html",
   "/credit": "pages/credit.html",
+  "/disclosure": "pages/disclosure.html",
   "/faqs": "pages/faqs.html",
   "/flyer": "pages/flyer.html",
   "/government": "pages/government.html",
@@ -38,6 +42,5 @@
   "/terms": "pages/terms.html",
   "/training": "pages/training.html",
   "/vediocom": "pages/vediocom.html",
-  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }

@@ -23,6 +23,18 @@
     },
     {
       "id": 2,
+      "image": "/assets/mlo-img/Jorge.jpg",
+      "name": "Jorge Lopez",
+      "url": "JorgeLopez",
+      "title": "Manager",
+      "cel": "Cell: ",
+      "email": "",
+      "phone": "2092983964",
+      "emp_email": "",
+      "filterClass": "support"
+    },
+    {
+      "id": 3,
       "image": "/assets/mlo-img/Cesar.jpeg",
       "hed": "Hello I am ",
       "name": "Cesar Amezola Cardenas",
@@ -34,7 +46,7 @@
       "filterClass": "support"
     },
     {
-      "id": 3,
+      "id": 4,
       "image": "/assets/mlo-img/Alfonso.jpeg",
       "hed": "Hello I am ",
       "name": "Alfonso Cardenas",
@@ -47,7 +59,7 @@
       "filterClass": "support"
     },
     {
-      "id": 4,
+      "id": 5,
       "image": "/assets/mlo-img/Jonathan.jpeg",
       "hed": "Hello I am ",
       "name": "Jonathan Estrada",
@@ -59,7 +71,7 @@
       "filterClass": "support"
     },
     {
-      "id": 5,
+      "id": 6,
       "image": "/assets/mlo-img/Sam.jpg",
       "hed": "Hello I am ",
       "name": "Sam Rehan",
@@ -71,7 +83,7 @@
       "filterClass": "support"
     },
     {
-      "id": 6,
+      "id": 7,
       "image": "/assets/mlo-img/Owais.jpg",
       "hed": "Hello I am ",
       "name": "Muhammad Owais",
@@ -84,7 +96,7 @@
       "filterClass": "support"
     },
     {
-      "id": 7,
+      "id": 8,
       "image": "/assets/mlo-img/Rohan.jpeg",
       "hed": "Hello I am ",
       "name": "Rohaan Naveed",
@@ -97,60 +109,47 @@
       "filterClass": "support"
     },
     {
-      "id": 8,
+      "id": 9,
       "image": "/assets/mlo-img/Maheen.jpeg",
       "hed": "Hello I am ",
       "emp_des": "Dynamic and results-oriented recruiter at Mission San Jose Mortgage, dedicated to sourcing top talent and building strong teams. With a keen eye for talent and a passion for connecting individuals with opportunities that align with their goals, I thrive on creating mutually beneficial matches between candidates and our company. Leveraging innovative sourcing strategies and a deep understanding of our organization's culture and objectives, I am committed to driving the recruitment process forward with efficiency and excellence.",
       "name": "Maheen Mangi",
       "url": "MaheenMangi",
-      "title": "Recruitment",
+      "title": "Recruiter",
       "email": "maheen@msjmortgage.com",
       "cel": "Cell: (209) 237-1578",
       "phone": "2092371578",
       "filterClass": "support"
     },
     {
-      "id": 9,
+      "id": 10,
       "image": "/assets/mlo-img/Mantshah.jpeg",
       "hed": "Hello I am ",
       "emp_des": "As a recruiter, I am a skilled communicator and relationship builder with a passion for connecting talented individuals with exciting career opportunities. I thrive on the challenge of sourcing candidates through diverse channels and utilizing my analytical skills to assess their suitability for various roles. I ensure that the recruitment process is transparent and compliant with all relevant regulations. My ultimate aim is to foster mutually beneficial connections, driving organizational growth and facilitating career advancement for individuals within dynamic and competitive landscapes.",
       "name": "Mantashah Binte Irfan",
       "url": "MantashahBinteIrfan",
-      "title": "Recruitment",
+      "title": "Recruiter",
       "email": "mantashah@msjmortgage.com",
       "cel": "Cell: (209) 420-1522",
       "phone": "2094201522",
       "filterClass": "support"
     },
     {
-      "id": 10,
+      "id": 11,
       "image": "/assets/mlo-img/Muzammil.jpeg",
       "hed": "Hello I am ",
       "name": "Muzammil Askari",
       "url": "MuzammilAskari",
       "emp_des": "I hold the position of Pricing and Marketing. In my role, I meticulously curate rate sheets from various lenders, ensuring accurate and up-to-date information. This enables our loan officers to effortlessly identify favorable rates for our clients. Additionally, I am responsible for verifying the rates provided to ensure our loan officers have access to reliable data.",
       "emp_des1": "Moreover, I am deeply involved in the marketing efforts of our company, focusing on promoting the services offered by Mission San Jose Mortgage and supporting the individual loan officers within our firm. Through strategic marketing initiatives, I aim to enhance our brand visibility and attract potential clients while providing valuable support to our dedicated team of loan officers.",
-      "title": "Pricing and Marketting",
+      "title": "Pricing",
       "email": "muzammil@msjmortgage.com",
       "cel": "Cell: (209) 651-0030",
       "phone": "2096510030",
       "filterClass": "support"
     },
     {
-      "id": 11,
-      "image": "/assets/mlo-img/Arslan.jpg",
-      "hed": "Hello I am ",
-      "name": "Arslan Sami",
-      "url": "ArslanSami",
-      "des": "As a seasoned developer and IT enthusiast, I bring a wealth of experience and expertise to the dynamic world of technology. With a passion for crafting innovative solutions, my journey in the tech realm has been marked by a commitment to excellence and a thirst for continuous learning. My proficiency spans across a diverse array of programming languages, frameworks, and cutting-edge technologies, allowing me to tackle complex challenges with finesse.",
-      "title": "Tech Support",
-      "email": "arslan@msjmortgage.com",
-      "cel": "Cell: (209) 689-2981",
-      "phone": "2096892981",
-      "filterClass": "support"
-    },
-    {
-      "id": 12,
+      "id": 13,
       "image": "/assets/mlo-img/SameerA.jpeg",
       "hed": "Hello I am ",
       "name": "Sameer Ali",
@@ -160,19 +159,6 @@
       "email": "sameer@msjmortgage.com",
       "cel": "Cell: (209) 273-5202",
       "phone": "2092735202",
-      "filterClass": "support"
-    },
-    {
-      "id": 13,
-      "image": "/assets/mlo-img/Hammad.jpg",
-      "hed": "Hello I am ",
-      "name": "Hammad Butt",
-      "url": "HammadButt",
-      "des": "",
-      "title": "Marketing",
-      "email": "hammad@msjmortgage.com",
-      "cel": "Cell: (209) 651-0030",
-      "phone": "2096510030",
       "filterClass": "support"
     },
     {
@@ -186,6 +172,18 @@
       "email": "alihamza@msjmortgage.com",
       "cel": "Cell: (209) 420-1511",
       "phone": "2094201511",
+      "filterClass": "support"
+    },
+    {
+      "id": 16,
+      "image": "/assets/mlo-img/Noemi.jpeg",
+      "hed": "Hello I am ",
+      "name": "Noemi Nunez",
+      "url": "NoemiNunez",
+      "title": "Processor Manager",
+      "email": "noemi@msjmortgage.com",
+      "cel": "Cell: (951) 564-8293",
+      "phone": "9515648293",
       "filterClass": "support"
     },
     {
@@ -213,20 +211,6 @@
       "cel": "Cell: (209) 297-8963",
       "phone": "2092978963",
       "filterClass": "support"
-    },
-    {
-      "id": 19,
-      "image": "/assets/mlo-img/Kanza.jpeg",
-      "hed": "Hello I am ",
-      "des": " As an HR at Mission San Jose Mortgage, I am dedicated to fostering a thriving and inclusive workplace culture where employees feel valued and empowered to succeed. With a strategic approach to human resource management, I prioritize the recruitment, development, and retention of top talent while ensuring compliance with regulations and alignment with company objectives. Through effective communication, innovative programs, and a focus on employee well-being, I am committed to driving organizational growth and fostering a positive work environment where everyone can thrive.",
-      "name": "Kanza Najeeb Mangi",
-      "url": "KanzaNajeebMangi",
-      "title": "HR",
-      "email": "kanza@msjmortgage.com",
-      "cel": "Cell: (209) 237-1585",
-      "phone": "2092371585",
-      "filterClass": "support"
     }
-   
   ]
 }

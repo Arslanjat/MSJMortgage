@@ -77,7 +77,7 @@ p {
   color: #888;
   font-size: 15px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.8;
   margin: 0;
 }
 
@@ -85,7 +85,7 @@ p {
   color: #888;
   font-size: 13px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.8;
   margin: 0;
 }
 
@@ -1119,7 +1119,7 @@ span:hover {
   right: 30px;
   height: 44px;
   width: 44px;
-  /* cursor: pointer; */
+  cursor: pointer;
   display: block;
   border-radius: 50px;
   z-index: 100;
@@ -1146,15 +1146,15 @@ span:hover {
   font-family: 'Font Awesome 5 Free';
   content: '\f077';
   text-align: center;
-  line-height: 44px;
-  font-size: 13px;
+  line-height: 10px;
+  font-size: 15px;
   font-weight: 900;
   color: #7a0404;
   left: 0;
   top: 0;
   height: 44px;
-  width: 44px;
-  /* cursor: pointer; */
+  width: 70px;
+  cursor: pointer;
   display: block;
   z-index: 1;
   -webkit-transition: all 400ms linear;
@@ -1355,7 +1355,7 @@ span:hover {
 .tit .navs span {
   padding: 15px 30px;
   background: #dfd5d5;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 .tit .navs .prev span{
   border: 1px solid #710404;
@@ -1381,7 +1381,7 @@ span:hover {
   border: 1px solid #710404;
   position: relative;
   overflow: hidden;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .btn-curve:focus {
@@ -5409,16 +5409,6 @@ footer .item .copy-right p a {
   color: #4d4c4c;
 }
 
-.credit2 {
-  background-image: url(/assets/img/line-pattern.png);
-  padding: 7px;
-  font-size: 13px;
-  color: #4d4c4c;
-}
-
-.credit2 :hover {
-  color: #7A0404;
-}
 
 .credit2 ul li {
   background-image: url(/assets/img/line-pattern.png);
@@ -5435,6 +5425,43 @@ footer .item .copy-right p a {
 }
 
 /* credit css end */
+
+/* Disclosure Page design Start*/
+
+.discheading {
+  background-image: url(/assets/img/line-pattern1.png);
+  padding: 10px;
+}
+
+.disclosurepara p {
+  background-image: url(/assets/img/line-pattern.png);
+  padding: 7px;
+  font-size: 15px;
+  color: #4d4c4c;
+}
+
+.disclosurelinks{
+  list-style-type: disc;
+  padding: 5px;
+  margin: 5px;
+  padding-left: 40px;
+}
+
+.disclosurelinks li{
+  list-style-type: disc;
+  color: #0c0d0f;
+  font-weight: 500;
+  padding: 3px;
+}
+
+.disclosurelinks li :hover{
+  list-style-type: disc;
+  font-weight: 550;
+  color: #7a0404;
+}
+
+/* Disclosure Page design end*/
+
 
 
 /* profile Details Icon */
@@ -5993,6 +6020,100 @@ footer .item .copy-right p a {
   border-radius: 30px;
 }
 
+@keyframes moving-gradient {
+  0% { background-position: -250px 0; }
+  100% { background-position: 250px 0; }
+}
+
+.loadtr span {
+  background: linear-gradient(to right, #eee 20%, #ddd 50%, #eee 80%);
+  width: 70px;
+  height: 10px;
+  background-size: 500px 100px;
+  animation: moving-gradient 1s infinite linear;
+}
+
+@keyframes moving-gradient {
+  0% { background-position: -250px 0; }
+  100% { background-position: 250px 0; }
+}
+
+.loadtr span {
+  background: linear-gradient(to right, #eee 20%, #ddd 50%, #eee 80%);
+  background-size: 500px 200px;
+  animation: moving-gradient 1.5s infinite linear;
+}
+
+.loadtr {
+  
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  .loadtr {
+    height: 0px;
+    vertical-align: middle;
+    padding: 15px;
+    span {
+      display: block;
+    }
+    &.td-1 {
+      width: 0px;
+      span {
+        width: 420px;
+        height: 18px;
+        border-radius: 50px;
+      }
+    }
+    &.td-2 {
+      width: 0px;
+      span {
+        width: 125px;
+        height: 18px;
+        border-radius: 50px;
+      }
+    }
+    &.td-3 {
+      width: 0px;
+      span {
+        width: 125px;
+        height: 18px;
+        border-radius: 50px;
+      }
+    }
+    &.td-4 {
+      width: 0px;
+      span {
+        width: 125px;
+        height: 18px;
+        border-radius: 50px;
+      }
+    }
+    &.td-5 {
+      width: 0px;
+      span {
+        width: 125px;
+        height: 18px;
+        border-radius: 50px;
+      }
+    }
+    &.td-6 {
+      width: 0px;
+      span {
+        width: 125px;
+        height: 18px;
+        border-radius: 50px;
+      }
+    }
+    &.td-7 {
+      width: 0px;
+      span {
+        width: 10px;
+        height: 15px;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+
 
 /* Quote page and button sytle */
 
@@ -6056,3 +6177,382 @@ footer .item .copy-right p a {
   }
 }
 /* MLO details page ixon style end */
+
+
+/* Comaplaint components style start */
+
+.popup-button {
+  position: fixed;
+  bottom: 0px;
+  right: 2px;
+  z-index: 999; /* Ensure it's above other elements */
+  background-color: transparent;
+  color: #7A0404;
+  border: none;
+  font-weight: 500;
+  padding: 10px 10px;
+  cursor: pointer;
+  display: flex;
+  border: 1px solid #7A0404;
+  align-items: center; /* Aligns items vertically centered */
+  height: 44px; /* Consistent height */
+  transition: background-color 200ms, opacity 200ms; /* Smooth transition */
+}
+
+.popup-button:hover {
+  background-color: black;
+}
+
+.image-container {
+  padding-left: 30px; /* Adds space between text and image */
+  color: #7A0404;
+}
+
+.image-complaint {
+  width: 20px;
+  height: 20px;
+  background-color: #7A0404;
+  transition: transform 200ms; /* Smooth transition for transformations */
+}
+
+.popup-button.open .image-complaint {
+  transform: rotate(180deg); /* Rotate image when popup is open */
+}
+
+.complaint-popup {
+  position: fixed;
+  bottom: 44px; /* Ensures popup is above the button */
+  right: 5px;
+  background-color: #c9adad;
+  border: 1px solid #7A0404;
+  padding: 0px;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+}
+
+.complaint-popup.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.container-complant {
+  max-width: 600px;
+  background: #fff;
+  width: 271px;
+  height: 380px;
+  padding: 0px;
+}
+
+.container-complant .text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-linear-gradient(right, #7A0404, black, #7A0404, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-complant form {
+  padding: 0px;
+}
+
+.container-complant form .form-row {
+  display: flex;
+  margin: 20px 0;
+}
+
+form .form-row .input-data {
+  width: 100%;
+  height: 40px;
+  margin: 0 5px;
+  position: relative;
+  outline: none;
+  box-sizing: border-box;
+}
+
+form .form-row .textarea {
+  height: 70px;
+}
+
+.input-data input,
+.textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 13px;
+  border-bottom: 1px solid #7A0404;
+}
+
+.input-data input:focus ~ label,
+.textarea textarea:focus ~ label,
+.input-data input:valid ~ label,
+.textarea textarea:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 14px;
+}
+
+.textarea textarea {
+  resize: none;
+  padding-top: 2px;
+}
+
+.input-data label {
+  position: absolute;
+  pointer-events: none;
+  bottom: 25px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.textarea label {
+  width: 100%;
+  bottom: 60px;
+  background: #fff;
+}
+
+.input-data .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: black;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before {
+  transform: scale(1);
+}
+
+.submit-btn .input-data {
+  overflow: hidden;
+}
+
+.submit-btn .input-data .inner {
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(right, #7A0404, black, #7A0404, #000000);
+  transition: all 0.4s;
+}
+
+.submit-btn .input-data:hover .inner {
+  left: 0;
+}
+
+.submit-btn .input-data input {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 700px) {
+  .container-complant .text {
+    font-size: 30px;
+  }
+
+  .container-complant form {
+    padding: 10px 0 0 0;
+  }
+
+  .container-complant form .form-row {
+    display: block;
+  }
+
+  form .form-row .input-data {
+    margin: 35px 0!important;
+  }
+
+  .submit-btn .input-data {
+    width: 40%!important;
+  }
+}
+
+
+/* Comaplaint components style end */
+
+
+
+/* loan program apply  page button style start*/
+
+.loan-apply {
+  background: transparent;
+  padding: 6px 17px;
+  margin: 3px;
+  border: 1px solid #710404;
+  background-color: #e7e7e7;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.loan-apply:focus {
+  outline: none;
+}
+
+.loan-apply:hover {
+  outline: none;
+}
+
+.loan-apply:hover:after {
+  bottom: -30px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.loan-apply:hover span {
+  color: #fff;
+}
+
+.loan-apply:after {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: 130%;
+  background: #252531;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.loan-apply span {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.loan-apply.btn-lit {
+  border-color: #7a0404;
+  color: #fff;
+}
+
+.loan-apply.btn-lit:hover span {
+  color: #1e1e1e;
+}
+
+.loan-apply.btn-lit:after {
+  background: #fff;
+}
+
+.loan-apply.btn-blc {
+  background: #1e1e1e;
+}
+
+.loan-apply.btn-blc:after {
+  background: #fff;
+}
+
+.loan-apply.btn-blc span {
+  color: #fff;
+}
+
+.loan-apply.btn-blc:hover span {
+  color: #1e1e1e;
+}
+
+.loan-apply.btn-color {
+  background: transparent;
+  border-color: #7a0404;
+}
+
+.loan-apply.btn-color:after {
+  background: #fff;
+}
+
+.loan-apply.btn-color span {
+  color: #050505;
+}
+
+.loan-apply.btn-color:hover span {
+  color: #070707;
+}
+
+.loan-apply.btn-lg {
+  padding: 14px 40px;
+}
+
+.loan-apply.btn-lg span {
+  font-size: 14px;
+}
+
+.loan-apply.btn-wit {
+  background: #fff;
+  border-color: #fff;
+}
+
+.loan-apply.btn-wit:after {
+  background: #090909;
+}
+
+.loan-apply.btn-wit span {
+  color: #1e1e1e;
+}
+
+.loan-apply.btn-wit:hover span {
+  color: #fff;
+}
+
+.loan-apply.btn-radius {
+  border-radius: 30px;
+}
+/* loan program apply  button style end */
+
+
+.con-title{
+  font-size: 15px;
+  font-weight: bold;
+  color: #545454;
+}
+
+/* styles/globals.css */
+
+.list-style{
+  margin-left: 25px;
+}
+li .list-style{
+  list-style-type: disc;
+  color: #888;
+ 
+}
+
+
+
+

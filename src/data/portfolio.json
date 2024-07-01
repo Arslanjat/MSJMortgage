@@ -1,22 +1,44 @@
 {
   "portfolio": [
+   
     {
       "id": 1,
       "image": "/assets/img/blog/img-1.jpg",
-      "title":"Portfolio Mortgage Loan",
-      "tag": "A portfolio mortgage loan refers to a mortgage that is originated and retained by the lending institution instead of being sold in the secondary market. In the traditional mortgage process, lenders often sell loans to investors or government-sponsored entities (GSEs) like Fannie Mae and Freddie Mac. However, with a portfolio mortgage, the lending institution chooses to keep the loan in its own portfolio."
+      "title": "Jumbo",
+      "tag":"A Jumbo Loan is a mortgage option that exceeds the conforming loan limits set by Fannie Mae and Freddie Mac, the government-sponsored enterprises (GSEs) that purchase a large portion of mortgages in the United States. These loans cater to borrowers who need financing for high-value properties.",
+      "title2":"Key Characteristics:",
+      "li1":"Higher Loan Amounts: Jumbo loans start above the conforming loan limits, which vary by geographic location but typically fall between $647,200 and $970,800 (as of 2024).",
+      "li2":"Qualifying Borrowers: Jumbo loans are designed for borrowers with strong credit scores (often above 700), solid income, and a substantial down payment (typically 20% or more).",
+      "li3":"Stricter Underwriting: Lenders may have stricter qualification requirements and underwriting guidelines compared to conforming loans due to the larger loan amount and perceived higher risk.",
+      "li4":"Variety of Loan Products: Jumbo loans come in various forms, including fixed-rate mortgages (FRMs), adjustable-rate mortgages (ARMs), and interest-only loans.",
+      "li5":"Less Government Regulation: Since Jumbo loans are not purchased by Fannie Mae and Freddie Mac, they are subject to less government regulation, allowing for some flexibility in loan terms. However, this also means they may carry more risk for the lender.",
+      "title3":"Benefits:",
+      "li6":"Financing for High-Value Homes: Provides an option for purchasing expensive properties in areas with high housing costs.",
+      "li7":"Competitive Interest Rates (potentially): Jumbo loans may offer competitive interest rates compared to conforming loans in some market conditions.",
+      "li8":"More Loan Options (potentially): A wider variety of loan products might be available compared to conforming loans.",
+      "title4":"Considerations:",
+      "li9":"Larger Down Payment Required: Jumbo loans typically require a higher down payment, which can be a significant hurdle for some borrowers.",
+      "li10":"Stricter Qualification Requirements: Qualifying for a Jumbo loan can be challenging due to stricter credit score and income verification processes.",
+      "li11":"Limited Lender Availability: Not all lenders offer Jumbo loans. You may need to shop around to find a lender with competitive rates and terms."
     },
     {
       "id": 2,
       "image": "/assets/img/blog/img-1.jpg",
-      "title": "Non-QM Loan",
-      "tag": "A Non-Qualified Mortgage (Non-QM) is a type of mortgage loan that doesn't meet the criteria established by government-sponsored enterprises (GSEs) like Fannie Mae and Freddie Mac or the standards set by the Consumer Financial Protection Bureau (CFPB) for Qualified Mortgages (QM). Non-QM loans are designed to accommodate borrowers with unique financial situations that may not fit within the strict guidelines of conventional mortgages."
-    },
-    {
-      "id": 3,
-      "image": "/assets/img/blog/img-1.jpg",
-      "title": "Jumbo",
-      "tag":"A jumbo loan is a type of mortgage that exceeds the conforming loan limits set by government-sponsored enterprises (GSEs) like Fannie Mae and Freddie Mac. These limits are established to ensure that the majority of mortgages in the United States conform to certain standard criteria. Jumbo loans are used to finance higher-priced properties that exceed these limits, providing an option for borrowers seeking larger loan amounts."
+      "title": "Non_QM",
+      "tag": "A Non-Qualified Mortgage (Non-QM Loan) is a mortgage option for borrowers who don't meet the eligibility requirements for traditional conforming loans offered by Fannie Mae and Freddie Mac. These loans cater to borrowers with unique financial situations that may not be reflected in a standard credit score or income documentation.",
+      "title2":"Flexible Eligibility:",
+      "li1":"Accommodates borrowers with:",
+      "li2":"Lower credit scores (can be as low as 620 in some cases).",
+      "li3":"Non-traditional income sources (self-employment, commissions, investment income).",
+      "li4":"Recent credit blemishes (foreclosure or bankruptcy, with limitations).",
+      "li5":"Higher debt-to-income ratios (may be allowed on a case-by-case basis).",
+      "title3":"Benefits:",
+      "li6":"Access to Homeownership: Provides an option for borrowers who may not qualify for traditional loans due to their financial profile.",
+      "li7":"Flexibility: Offers more flexibility in income verification and credit history considerations.",
+      "li8":"",
+      "title4":"Considerations:",
+      "li9":"Higher Interest Rates: Be prepared for potentially higher borrowing costs compared to conforming loans.",
+      "li10":"Stricter Lender Requirements: Non-QM loans may have stricter underwriting guidelines compared to conforming loans."
     }
   ]
   

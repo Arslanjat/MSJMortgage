@@ -20,6 +20,192 @@ const removeSlashFromPagination = ()=>{
 
 /***/ }),
 
+/***/ 9740:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const Complaint = ({ isOpen  })=>{
+    const { 0: formData , 1: setFormData  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
+        name: "",
+        email: "",
+        phone: "",
+        complaints: ""
+    });
+    const handleChange = (e)=>{
+        const { name , value  } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        try {
+            const response = await fetch("/api/complaints", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formData)
+            });
+            const result = await response.json();
+            if (result.success) {
+                alert("Your complaint has been sent successfully.");
+                // Clear form data after successful submission
+                setFormData({
+                    name: "",
+                    email: "",
+                    phone: "",
+                    complaints: ""
+                });
+            } else {
+                alert(result.message);
+            }
+        } catch (error) {
+            console.error("Error submitting complaint:", error);
+            alert("There was an error submitting your complaint. Please try again later.");
+        }
+    };
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: `complaint-popup ${isOpen ? "open" : ""}`,
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            className: "container-complant",
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "text",
+                    children: "How can we help you"
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
+                    onSubmit: handleSubmit,
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "form-row",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "input-data",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
+                                        htmlFor: "name",
+                                        children: "Name"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                        type: "text",
+                                        name: "name",
+                                        placeholder: "Enter your name",
+                                        required: true,
+                                        value: formData.name,
+                                        onChange: handleChange
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "underline"
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "form-row",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "input-data",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
+                                        htmlFor: "email",
+                                        children: "Email Address"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                        type: "email",
+                                        name: "email",
+                                        placeholder: "Enter your email",
+                                        required: true,
+                                        value: formData.email,
+                                        onChange: handleChange
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "underline"
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "form-row",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "input-data",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
+                                        htmlFor: "phone",
+                                        children: "Phone #"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                        type: "text",
+                                        name: "phone",
+                                        placeholder: "Enter your phone #",
+                                        required: true,
+                                        value: formData.phone,
+                                        onChange: handleChange
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "underline"
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "form-row",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "input-data textarea",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
+                                        htmlFor: "complaints",
+                                        children: "What has happened?"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
+                                        name: "complaints",
+                                        rows: "8",
+                                        placeholder: "How can we help you.",
+                                        required: true,
+                                        value: formData.complaints,
+                                        onChange: handleChange
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "underline"
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("center", {
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "form-row submit-btn",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "input-data",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                            className: "inner"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                            type: "submit",
+                                            value: "Submit"
+                                        })
+                                    ]
+                                })
+                            })
+                        })
+                    ]
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Complaint);
+
+
+/***/ }),
+
 /***/ 6429:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -705,9 +891,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layouts_light__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6172);
 /* harmony import */ var _components_Team1__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8633);
 /* harmony import */ var _components_Reviews__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4893);
+/* harmony import */ var _components_Complaint__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(9740);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Intro_with_horizontal__WEBPACK_IMPORTED_MODULE_3__, _components_Team1__WEBPACK_IMPORTED_MODULE_5__]);
 ([_components_Intro_with_horizontal__WEBPACK_IMPORTED_MODULE_3__, _components_Team1__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-/* eslint-disable @next/next/no-img-element */ 
+
+
 
 
 
@@ -715,6 +903,10 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_com
 
 
 const Home1 = ()=>{
+    const { 0: isPopupOpen , 1: setIsPopupOpen  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const handleTogglePopup = ()=>{
+        setIsPopupOpen(!isPopupOpen);
+    };
     react__WEBPACK_IMPORTED_MODULE_1___default().useEffect(()=>{
         document.querySelector("body").classList.add("homepage");
     }, []);
@@ -724,7 +916,28 @@ const Home1 = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Intro_with_horizontal__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Services1__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Team1__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Reviews__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Reviews__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Complaint__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
+                isOpen: isPopupOpen
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                className: "main-complaint",
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
+                    onClick: handleTogglePopup,
+                    className: `popup-button ${isPopupOpen ? "closed" : "open"}`,
+                    children: [
+                        isPopupOpen ? "Need help" : "Need help",
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            className: "image-container",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                className: "image-complaint",
+                                src: "assets/img/close.svg",
+                                alt: "toggle"
+                            })
+                        })
+                    ]
+                })
+            })
         ]
     });
 };
@@ -738,7 +951,7 @@ __webpack_async_result__();
 /***/ 3614:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"second":"Mission San Jose Mortgage"},"content":{"first":"We are Licensed In Arizona, California, Colorado, Florida, Georgia, Idaho, Montana, New Mexico, Oregon, Texas, Washington, Ohio and Wyoming."},"video":"/assets/img/slid/msj_video.mp4"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"second":"Mission San Jose Mortgage"},"content":{"first":"We are Licensed In Arizona, California, Colorado, Florida, Georgia, Idaho, Montana, New Mexico, Oregon, Texas, Washington, Ohio, Alabama  and Wyoming."},"video":"/assets/img/slid/msj_video.mp4"}]');
 
 /***/ })
 

@@ -1,50 +1,165 @@
 {
+"filtersName": [
+  {
+    "id": 2,
+    "name": "purchase",
+    "filterClass": ".purchase"
+  },
+  {
+    "id": 2,
+    "name": "cashout",
+    "filterClass": ".cashout"
+  }
+],
 
-  "portfolio": [
+  "purchase": [
     {
-      "id":1,
-      "title":"Conventional Loan",
-      "tag":"A Conventional Mortgage Loan is a type of home loan not insured or guaranteed by government agencies like the Federal Housing Administration (FHA) or the Department of Veterans Affairs (VA). Instead, it is provided by private lenders, such as banks or mortgage companies. Conventional loans are the most prevalent type of mortgage in the United States, and they come with various terms, including fixed or adjustable interest rates, and typically require a down payment. These loans do not carry government-backed insurance and rely on the borrower's creditworthiness and the lender's criteria."
+      "id": 1,
+      "image": "/assets/img/blog/dummy.jpg",
+      "title": "Conforming",
+      "title1": "Conforming",
+      "tag":"A conforming loan is a mortgage that meets the purchasing guidelines set by Fannie Mae and Freddie Mac, government-sponsored enterprises (GSEs) in the US housing market. These loans adhere to specific criteria regarding loan amount, borrower qualifications, and property type. Conforming loans are a widely used mortgage option with attractive features for qualified borrowers. Here's a quick breakdown:",
+      "title2":"Eligibility:",
+      "li1":"Meet Fannie Mae/Freddie Mac standards.",
+      "li2":"Minimum credit score (often 620+).",
+      "li3":"Healthy debt-to-income ratio (ideally below 45%).",
+      "li4":"Down payment (at least 3%, may vary).",
+      "li5":"Loan amount under conforming loan limits (set by FHFA, $766,550 nationally in 2024, higher in some areas).",
+      "title3":"Benefits:",
+      "li6":"Lower Interest Rates: Due to reduced risk for lenders, conforming loans often offer competitive interest rates.",
+      "li7":"Wide Availability: Most lenders provide conforming loans, making them easy to find.",
+      "li8":"",
+      "title4":"Considerations:",
+      "li9":"Loan Limits:  Check your county limits.",
+      "li10":"Not Government-Insured: Unlike FHA, VA, and USDA loans, conforming loans lack government insurance.",
+      "filterclass":"purchase"
     },
     {
       "id": 2,
-      "image": "/assets/img/blog/agencyjumbo.jpg",
-      "title": "Agency Jumbo",
-      "tag":"An Agency Jumbo mortgage is a type of home loan that combines features of both jumbo and agency loans. It exceeds the conforming loan limits set by government-sponsored enterprises (GSEs) like Fannie Mae and Freddie Mac but adheres to specific criteria and guidelines set by these agencies. This hybrid loan offers favorable terms and interest rates, making it a viable option for homebuyers seeking financing beyond standard limits. It provitag a balance between the flexibility of jumbo loans and the backing and guidelines of government-sponsored enterprises."
-    },
-    {
-      "id": 3,
-      "image": "/assets/img/blog/img-1.jpg",
-      "title": "Conforming",
-      "tag":"A Conforming mortgage is a home loan that meets the dollar limits set by government-sponsored enterprises (GSEs) such as Fannie Mae and Freddie Mac. These loans adhere to the funding criteria and guidelines established by these entities. Conforming loans are advantageous for borrowers with excellent credit, offering lower interest rates. These loans play a crucial role in ensuring the availability of affordable financing for homebuyers, with limits adjusted annually. Their terms and conditions must align with the specific criteria outlined by the Federal Housing Finance Agency (FHFA) and GSEs, promoting stability and affordability in the housing market."
-      
-    },
-    {
-      "id": 4,
-      "image": "/assets/img/blog/img-1.jpg",
-      "title": "None conforming",
-      "tag":"A Nonconforming mortgage, or jumbo mortgage, is a home loan that does not adhere to the guidelines of government-sponsored enterprises (GSEs) like Fannie Mae and Freddie Mac. These loans surpass the maximum loan amount, deviating from set standards regarding suitable properties, down payment requirements, and credit criteria. Unlike conforming loans, nonconforming mortgages offer more flexibility but often come with higher interest rates due to increased risk for lenders. Borrowers seeking larger loan amounts or not meeting typical credit and income requirements may opt for nonconforming mortgages. These loans provide an alternative for unique financial situations beyond conventional lending limits."
-     
-    },
-    {
-      "id": 5,
       "image": "/assets/img/blog/img-1.jpg",
       "title": "HomeReady",
-      "tag":"The HomeReady mortgage program, offered by Fannie Mae, aims to enhance homeownership accessibility for low and moderate-income borrowers. This initiative allows for a minimal down payment (as low as 3%), accepts income from non-borrower household members, mandates homeownership education, offers reduced mortgage insurance rates, and considers a reasonable credit score. HomeReady promotes inclusivity by targeting a broad range of income levels, enabling co-borrower flexibility, and encouraging financial education. It serves as a supportive option for individuals seeking affordable and flexible pathways to homeownership."
+      "title1": "Home Ready",
+      "tag":"A HomeReady Mortgage is a mortgage product designed to help eligible low- to moderate-income homebuyers achieve homeownership. It's offered by lenders but backed by Fannie Mae.",
+      "title2":"Eligibility:",
+      "li1":"Meet income limits set for your area by Fannie Mae.",
+      "li2":"Minimum credit score requirements (typically 620, but may vary).",
+      "li3":"Healthy debt-to-income ratio (ideally below 45%).",
+      "li4":"Down payment of at least 3%.",
+      "li5":"Completion of a homeownership education course approved by Fannie Mae.",
+      "title3":"Benefits:",
+      "li6":"Lower down payment: Compared to conventional loans, HomeReady allows a down payment as low as 3%.",
+      "li7":"Competitive interest rates: Due to government backing, HomeReady loans often offer attractive rates.",
+      "li8":"Flexible qualifying factors: Income limits and credit score requirements can be more forgiving compared to conventional loans.",
+      "title4":"Considerations",
+      "li9":"Income limits: You must meet the income eligibility for your area.",
+      "li10":"Homeownership education: Completing a homeownership course is mandatory.",
+       "filterclass":"purchase"
       
+    },
+    {
+      "id":3,
+      "title":"HomePossible",
+      "title1":"Home Possible",
+      "tag":"The Home Possible is a Fannie Mae program designed to expand homeownership opportunities for creditworthy borrowers with moderate income.",
+      "title2":"Eligibility:",
+      "li1":"Income Limits: Your income cannot exceed a specific percentage (typically 80%) of the Area Median Income (AMI) for the location of the property you wish to purchase.",
+      "li2":"Credit Score: Minimum credit score requirements vary, but can be as low as 620 with a slightly higher rate.",
+      "li3":"Debt-to-Income Ratio: A healthy debt-to-income ratio is preferred, though flexibility may exist compared to conventional loans.",
+      "li4":"Down Payment: A minimum down payment of 3% is required. Funds can come from various sources, including gifts and grants.",
+      "li5":"Property Type: Must be a primary residence (single-unit dwelling).",
+      "title3":"Benefits:",
+      "li6":"Lower Down Payment: Requires a smaller down payment compared to conventional loans.",
+      "li7":"Competitive Rates: Offers attractive interest rates due to reduced risk for lenders.",
+      "li8":"Flexible Qualifying Factors: Income limits and credit score requirements can be more lenient than traditional options.",
+      "title4":"Considerations:",
+      "li9":"Income Limits: You must meet the income restrictions for the area where you're buying.",
+      "li10":"Property Usage: Limited to single-unit primary residences.",
+      "li11":"Geographic Restrictions: No geographic limitations on loan amounts, but income limits vary by location.",
+       "filterclass":"purchase"
+    },
+    {
+      "id":4,
+      "title":"ConformingArm",
+      "title1":"Conforming ARM (Adjustable Rate Mortgage)",
+      "tag":"A Conforming ARM (Adjustable Rate Mortgage) combines the features of a traditional Adjustable-Rate Mortgage (ARM) with the eligibility standards set by Fannie Mae and Freddie Mac for conforming loans. In simpler terms, it's a mortgage with an interest rate that adjusts over time, but adheres to borrowing guidelines established by these government-sponsored enterprises (GSEs) to ensure a certain level of stability in the housing market.",
+      "title2":"Eligibility:",
+      "li1":"Meets Fannie Mae/Freddie Mac conforming loan guidelines (loan amount limits, credit score, debt-to-income ratio, etc.).",
+      "li2":"Minimum credit score requirements (often 620+).",
+      "li3":"Healthy debt-to-income ratio (ideally below 45%).",
+      "li4":"Down payment (at least 3%, may vary).",
+      "li5":"",
+      "title3":"Benefits:",
+      "li6":"Potentially Lower Initial Rates: Compared to fixed-rate conforming loans, ARMs may offer lower introductory rates.",
+      "li7":"Flexibility: Can be a good option if you plan to sell the home before the fixed-rate period ends.",
+      "li8":"",
+      "title4":"Considerations:",
+      "li9":"Interest Rate Risk: After the initial fixed period, your monthly payment can fluctuate due to interest rate adjustments.",
+      "li10":"Long-Term Planning: ARMs may not be suitable for long-term ownership plans if you're concerned about rising rates.",
+      "li11":"Understanding the Product: It's crucial to understand the ARM's terms, including adjustment frequency, caps, and potential payment increases.",
+       "filterclass":"purchase"
+    },
+    {
+      "id":5,
+      "title":"RefiNow",
+      "title1":"Refi Now",
+      "tag":"RefiNow is a mortgage refinancing program created by Fannie Mae to help eligible homeowners reduce their monthly housing costs. It specifically targets those who may not qualify for traditional refinance options due to factors like credit score or income level.",
+      "title2":"Eligibility:",
+      "li1":"The mortgage you're looking to refinance needs to be currently owned or guaranteed by Fannie Mae.",
+      "li2":"Income limits apply (must be at or below 100% of the Area Median Income (AMI) for your location).",
+      "li3":"Minimum credit score not required. No recent delinquencies on your current mortgage.",
+      "li4":"Debt-to-income ratio (DTI) must be less than or equal to 65%.",
+      "li5":"Refinancing a single-unit principal residence. Maximum loan-to-value (LTV) ratio limits apply (typically 95%).",
+      "title3":"Benefits:",
+      "li6":"Reduced Interest Rate: RefiNow requires a minimum interest rate reduction of 50 basis points (0.5%) compared to your current mortgage, potentially leading to significant monthly savings.",
+      "li7":"Lower Monthly Payment: The program aims to help you achieve a lower monthly payment, making home ownership more affordable.",
+      "li8":"More Flexible Eligibility: Compared to traditional refinances, RefiNow offers broader eligibility with a focus on income and making homeownership more sustainable.",
+      "title4":"Considerations:",
+      "li9":"Income Limits: You must meet the income limitations set for your area to qualify.",
+      "li10":"No Minimum Credit Score: While a minimum credit score isn't required, other factors like credit history and debt may be considered.",
+       "filterclass":"purchase"
+
     },
     {
       "id": 6,
       "image": "/assets/img/blog/img-1.jpg",
-      "title": "Refi-Possible",
-      "tag":"The Refi-Possible mortgage refers to the possibility of refinancing an existing mortgage, provided certain eligibility criteria are met. This type of mortgage allows homeowners to replace their current mortgage with a new one, potentially securing a lower interest rate. Common reasons for refinancing include seeking reduced monthly payments, shortening the loan term, obtaining cash-out for home improvements, or switching from an adjustable-rate to a fixed-rate mortgage. Refi-Possible mortgages offer homeowners financial flexibility and the opportunity to optimize their mortgage terms based on changing circumstances and market conditions."
-      
+      "title": "RefiPossible",
+      "title1": "Refi Possible",
+      "tag":"RefiPossible is a mortgage refinancing program created by Freddie Mac to help low- and moderate-income homeowners reduce their monthly housing costs. It caters to borrowers who may not qualify for traditional refinances due to income limitations.",
+      "title2":"Eligibility:",
+      "li1":"The mortgage you're looking to refinance needs to be currently owned or guaranteed by Freddie Mac.",
+      "li2":"Income limits apply (typically at or below 80% of the Area Median Income (AMI) for your location).",
+      "li3":"Minimum credit score requirements vary, but can be as low as 620 with a slightly higher rate.",
+      "li4":"No recent delinquencies on your current mortgage. Debt-to-income ratio (DTI) up to 65% may be considered.",
+      "li5":"Refinancing a single-unit principal residence. Maximum loan-to-value (LTV) ratio limits apply (typically up to 97%).",
+      "title3":"Benefits:",
+      "li6":"Reduced Interest Rate: RefiPossible aims to help you achieve a lower interest rate compared to your current mortgage, potentially leading to significant monthly savings.",
+      "li7":"Lower Monthly Payment: The program's goal is to make homeownership more affordable by reducing your monthly payment.",
+      "li8":"More Flexible Eligibility: RefiPossible offers broader eligibility compared to conventional refinances, focusing on income and making housing costs more manageable.",
+      "title4":"Considerations:",
+      "li9":"Income Limits: You must meet the income limitations set for your area to qualify.",
+      "li10":"Credit Score: While the minimum credit score can be lower than traditional options, it's still a factor.",
+      "filterclass":"purchase"
     },
     {
       "id": 7,
-      "image": "/assets/img/blog/img-1.jpg",
-      "title": "ARMS",
-      "tag":"An Adjustable-Rate Mortgage (ARM) is a type of mortgage loan with an interest rate that is not fixed for the entire loan term. ARMs typically have an initial fixed period (e.g., 3, 5, 7, or 10 years) with a lower teaser rate, followed by an adjustable period where the rate fluctuates based on a specific financial index. This adjustment can occur annually or at predetermined intervals. ARMs offer lower initial rates and payments, making them attractive, especially if borrowers expect to sell or refinance before the fixed period ends. However, they carry interest rate risk, as future rate movements are unpredictable. Borrowers should carefully consider their financial situation and future plans when opting for an ARM." 
+      "image": "/assets/img/blog/dummy.jpg",
+      "title": "CONFORMINGCASH-OUTREFINANCE ",
+      "title1": "CONFORMING CASH-OUT REFINANCE",
+      "tag":"A conforming cash-out refinance is a type of cash-out refinance that meets the purchasing guidelines set by Fannie Mae and Freddie Mac, the government-sponsored enterprises (GSEs) in the US housing market.  This allows you to refinance your existing mortgage for a higher amount than you currently owe and receive the difference in cash, while adhering to specific criteria established by the GSEs.",
+      "title2":"Eligibility:",
+      "li1":"Meets Fannie Mae/Freddie Mac standards for cash-out refinances.",
+      "li2":"These standards may be similar to, but not necessarily identical to, those for conforming purchase loans.",
+      "li3":"Minimum credit score (often 620+).",
+      "li4":"Healthy debt-to-income ratio (ideally below 45%).",
+      "li5":"requirements may vary depending on lender and loan.",
+      "title3":"Benefits (if conforming cash-out refinance existed):",
+      "li6":"Potentially lower interest rates compared to other cash-out options (due to conforming loan benefits).",
+      "li7":"Wide lender availability (similar to conforming loans).",
+      "li8":"",
+      "title4":"Considerations (if conforming cash-out refinance existed):",
+      "li9":"Loan limits would still apply (same as conforming loan limits).",
+      "li10":"You would need to meet conforming loan eligibility requirements (credit score, debt-to-income ratio, etc.).",
+       "filterclass":"cashout"
     }
   ]
   

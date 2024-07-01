@@ -51,22 +51,25 @@ const Services1 = ()=>{
                     style: {
                         backgroundImage: `url(${services1_namespaceObject.image}`
                     },
-                    children: services1_namespaceObject.u.map((item)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "col-lg-3 col-md-6 item-bx",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                    className: "mb-20",
-                                    children: item.title
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: item.content
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: item.link,
-                                    className: "more mt-20",
-                                    children: "Read More"
-                                })
-                            ]
+                    children: services1_namespaceObject.u.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: item.link,
+                            className: " col-lg-3 col-md-6 item-bx",
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                        className: "mb-20",
+                                        children: item.title
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: item.content
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        className: "more mt-20",
+                                        children: "Read More"
+                                    })
+                                ]
+                            })
                         }, item.id))
                 })
             ]
